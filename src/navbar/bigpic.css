@@ -1,0 +1,83 @@
+.Bigpic{
+    margin-top: -7%;
+    height: 90%;
+    width: 100%;
+}
+
+.resp_block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.simple{
+    color: white;
+}
+
+.resp_szo{
+    margin-top: -40%;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.ch_text{
+    color: rgb(125, 131, 125);
+}
+
+.top_text{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.revenue_txt{
+    color: rgb(34, 194, 34);
+    font-weight: bolder;
+    font-size: large;
+}
+
+.motivation_txt{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(10, 245, 194);
+    font-weight: bolder;
+    font-size: larger;
+    
+}
+
+.sec_row{
+    margin-left: 15%;
+}
+
+
+
+
+
+@media (max-width: 400px){
+    .Bigpic{
+        width: 100%;
+        margin-top: -14%;
+    }
+}
+
+
+@media (max-width: 768px){
+    .Bigpic{
+        margin-top: -17%;
+    }
+}
+
+@media (max-width: 1200px) {
+  .motivation_txt {
+    position: absolute;   /* Absolute positioning inside its container */
+    top: 80%;             /* Adjust as needed, this positions it 80% from the top */
+    left: 50%;            /* Horizontally centers the element */
+    transform: translate(-50%, -50%);  /* Perfect centering both horizontally and vertically */
+  }
+}
+
+  

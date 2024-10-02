@@ -1,0 +1,123 @@
+.nav-item .dropdown-menu.custom-dp-bg {
+  background-color: white !important; 
+  height: 140px;
+  width:  250px;
+}
+.dropdown-item.elso {
+  margin-top: 5%;
+  font-size: 90%;
+}
+
+
+
+.dropdown-item.masodik {
+  margin-top: 5%;
+  font-size: 90%;
+}
+
+
+
+.navbar-nav {
+  margin-left: 20px; /* Adjust spacing between brand and nav items */
+}
+
+.navbar-nav .nav-item {
+  margin-right: 20px; /* Add some spacing between items */
+}
+
+.navbar .nav-link {
+  color: white !important;  /* Forces the color to be white, overrides any other styles */
+}
+
+.navbar .nav-link:hover, 
+.navbar .nav-link:focus {
+  color: #f0eaea !important;  /* Optional: Slight color change on hover or focus */
+}
+
+.navbar {
+  background-color: transparent !important;
+  border: none;  /* Optionally remove borders if present */
+}
+
+/* Optional: Ensure dropdowns also have transparent backgrounds */
+.navbar .dropdown-menu {
+  background-color: transparent !important;
+  border: none;  /* Optionally remove the border from dropdown */
+}
+
+
+.navbar-nav{
+  margin-left: 10%;
+}
+
+.brand{
+  margin-left: -7%;
+}
+
+@media (max-width: 400px){
+.navbar-nav{
+  width: 90%;
+}
+.brand {
+  transform: translateX(-10%); /* Moves the element 2% to the left */
+}
+ .nav-item{
+  transform: translateX(-30%);
+}
+.drops4{
+  transform: translateX(-40%);
+
+}
+
+}
+
+
+@media (min-width: 468px){
+  .navbar-nav{
+    margin-left: 20%; 
+    justify-content: space-between; 
+  }
+
+
+  
+}
+
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    margin-left: 20%; 
+    justify-content: space-between; 
+  }
+
+  .navbar-nav .nav-item {
+    margin-right: 30px; 
+  }
+}
+
+@media (min-width: 1300px){
+  .drops{
+    margin-left: 110%;
+  }
+  
+  .drops2{
+    margin-left: 5%;
+  }
+  
+  .drops3{
+    margin-left: 3%;
+  }
+  
+  .drops4{
+    margin-left: 3%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
+
+@media (min-width: 1400px){
+  .drops{
+    margin-left: 140%;
+  }
+
+}
+

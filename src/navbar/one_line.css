@@ -1,0 +1,155 @@
+.Topline {
+    background-color: rgb(66, 66, 66);
+    overflow: hidden; /* Hide overflowing content */
+    position: relative; /* Position relative for absolute children */
+    white-space: nowrap; /* Prevent line breaks */
+    padding: 10px 0; /* Add some padding for aesthetics */
+  }
+  
+  .marquee {
+    display: inline-block;
+    animation: scroll 10s linear infinite; /* Adjust duration for speed */
+    white-space: nowrap;
+  }
+  
+  @keyframes scroll {
+    from {
+      transform: translateX(100%); /* Start from the right */
+    }
+    to {
+      transform: translateX(-100%); /* End at the left */
+    }
+  }
+  
+  .things_inside {
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .rigts {
+    margin-right: 4%;
+    color: white;
+  }
+  
+  .social {
+    padding: 0px 8px;
+    color: white; /* Ensure icons are visible */
+  }
+  
+  @media (max-width: 768px) {
+    .Topline {
+      font-size: 0.9rem; /* Reduce font size on smaller screens */
+    }
+  
+    .marquee {
+      animation: scroll 15s linear infinite; /* Slow down scrolling speed on smaller screens */
+    }
+
+
+    @keyframes scroll {
+        from {
+          transform: translateX(290%); /* Start from the right */
+        }
+        to {
+          transform: translateX(-100%); /* End at the left */
+        }
+      }
+  }
+
+  @media (max-width: 1068px) {
+    .Topline {
+      font-size: 0.9rem; /* Reduce font size on smaller screens */
+    }
+  
+    .marquee {
+      animation: scroll 15s linear infinite; /* Slow down scrolling speed on smaller screens */
+    }
+
+
+    @keyframes scroll {
+        from {
+          transform: translateX(290%); /* Start from the right */
+        }
+        to {
+          transform: translateX(-100%); /* End at the left */
+        }
+      }
+  }
+
+
+  @media (max-width: 1468px) {
+    .Topline {
+      font-size: 0.9rem; /* Reduce font size on smaller screens */
+    }
+  
+    .marquee {
+      animation: scroll 15s linear infinite; /* Slow down scrolling speed on smaller screens */
+    }
+
+
+    @keyframes scroll {
+        from {
+          transform: translateX(290%); /* Start from the right */
+        }
+        to {
+          transform: translateX(-100%); /* End at the left */
+        }
+      }
+  }
+
+
+  @media (max-width: 1668px) {
+    .Topline {
+      font-size: 0.9rem; /* Reduce font size on smaller screens */
+    }
+  
+    .marquee {
+      animation: scroll 15s linear infinite; /* Slow down scrolling speed on smaller screens */
+    }
+
+
+    @keyframes scroll {
+        from {
+          transform: translateX(500%); /* Start from the right */
+        }
+        to {
+          transform: translateX(-100%); /* End at the left */
+        }
+      }
+  }
+
+  @media (min-width: 1669px) {
+    .Topline {
+      font-size: 0.9rem; /* Reduce font size on smaller screens */
+    }
+  
+    .marquee {
+      animation: scroll 15s linear infinite; /* Slow down scrolling speed on smaller screens */
+    }
+
+
+    @keyframes scroll {
+        from {
+          transform: translateX(600%); /* Start from the right */
+        }
+        to {
+          transform: translateX(-100%); /* End at the left */
+        }
+      }
+  }
+
+  
+  @media (max-width: 400px) {
+    .Topline {
+      width: 101%;
+    }
+  
+    .social {
+      padding: 0px 6px; /* Reduce padding for small screens */
+    }
+  
+    .marquee {
+      animation: scroll 20s linear infinite; /* Further slow down scrolling speed */
+    }
+  }
+  
